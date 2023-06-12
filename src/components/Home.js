@@ -59,7 +59,7 @@ export default function Home() {
                     show.className = 'flex items-end gap-x-0 absolute -mr-20 right-1/4 mt-48 translate-y-44  w-56'
                 }
 
-                if (newValue === 100) {
+                if (newValue === 102) {
                     const show = document.getElementById('node_5');
                     show.className = 'flex items-start gap-x-0 absolute right-0 mr-6 mt-52  w-64'
                 }
