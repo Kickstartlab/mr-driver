@@ -70,12 +70,12 @@ export default function Home() {
 
                 return newValue;
             });
-        }, 3000);
+        }, 1000);
     }, []);
 
     useEffect(() => {
         Aos.init({
-            duration: 3000,
+            duration: 2000,
         });
         Aos.refresh();
     }, [])
