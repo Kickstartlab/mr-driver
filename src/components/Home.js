@@ -70,7 +70,7 @@ export default function Home() {
 
                 return newValue;
             });
-        }, 1000);
+        }, 3000);
     }, []);
 
     useEffect(() => {

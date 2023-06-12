@@ -21,7 +21,7 @@ const Container = Styled.div`
     height: 25px;
     background: #FFC122;
     box-shadow: inset 2.62388px 14.8687px 32.3612px rgba(3, 3, 3, 0.6), inset 0px 0px 4.37313px rgba(255, 255, 255, 0.1);
-    transition: width 0.3s ease;
+    transition: width 0.6s ease;
   }
 `;
 
