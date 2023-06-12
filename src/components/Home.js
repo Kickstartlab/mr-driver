@@ -37,29 +37,29 @@ export default function Home() {
     useEffect(() => {
         const interval = setInterval(() => {
             setValue(oldValue => {
-                const newValue = oldValue + 8.5;
+                const newValue = oldValue + 17;
 
-                if (newValue === 17) {
+                if (newValue === 34) {
                     const show = document.getElementById('node_1');
                     show.className = 'flex items-start gap-x-0 absolute left-0 ml-60 mt-52 w-56'
                 }
 
-                if (newValue === 34) {
+                if (newValue === 51) {
                     const show = document.getElementById('node_2');
                     show.className = 'flex items-end gap-x-0 absolute left-1/3 -ml-4 mt-48 translate-y-44 w-64'
                 }
 
-                if (newValue === 51) {
+                if (newValue === 68) {
                     const show = document.getElementById('node_3');
                     show.className = 'flex items-start gap-x-0 absolute left-1/2 -ml-4 mt-52  w-56'
                 }
 
-                if (newValue === 68) {
+                if (newValue === 85) {
                     const show = document.getElementById('node_4');
                     show.className = 'flex items-end gap-x-0 absolute -mr-20 right-1/4 mt-48 translate-y-44  w-56'
                 }
 
-                if (newValue === 85) {
+                if (newValue === 100) {
                     const show = document.getElementById('node_5');
                     show.className = 'flex items-start gap-x-0 absolute right-0 mr-6 mt-52  w-64'
                 }
