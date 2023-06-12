@@ -75,7 +75,7 @@ export default function Home() {
 
     useEffect(() => {
         Aos.init({
-            duration: 2000,
+            duration: 500,
         });
         Aos.refresh();
     }, [])
