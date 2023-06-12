@@ -1,0 +1,38 @@
+.box {
+  transform: translatey(0px);
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0, 0px);
+  }
+
+  50% {
+    transform: translate(0, 20px);
+  }
+
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+.h-800{
+  height: 820px;
+}
+
+.line {
+  background: #FFC122;
+  box-shadow: inset 2.62388px 14.8687px 32.3612px rgba(3, 3, 3, 0.6), inset 0px 0px 4.37313px rgba(255, 255, 255, 0.1);
+}
+
+#tsparticles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  z-index: -1;
+}
