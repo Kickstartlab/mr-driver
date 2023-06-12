@@ -70,7 +70,7 @@ export default function Home() {
 
                 return newValue;
             });
-        }, 1000);
+        }, 1500);
     }, []);
 
     useEffect(() => {
@@ -510,7 +510,7 @@ export default function Home() {
                                     <div className='w-8 h-8 bg-yellow-100 rounded-full translate-y-2'></div>
                                 </div>
 
-                                <div data-aos="fade-right">
+                                <div>
                                     <p className='text-white-50 text-sm'>April 15, 2019</p>
                                     <h5 className='text-2xl font-semibold'>Concept</h5>
                                     <ul className='p-4 list-disc'>
