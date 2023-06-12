@@ -643,17 +643,17 @@ export default function Home() {
                                 Meet Our Amazing Team
                             </h2>
 
-                            <p className='lg:w-9/12 mt-6 lg:text-xl font-medium'>
+                            <p data-aos='slide-up' className='lg:w-9/12 mt-6 lg:text-xl font-medium'>
                                 In App MrDriver Non-custodial wallet
                                 Safe and secure way to pay and receive transportation fares
                             </p>
 
-                            <p className='lg:w-9/12 mt-6 lg:text-xl font-medium'>
+                            <p data-aos='slide-up' className='lg:w-9/12 mt-6 lg:text-xl font-medium'>
                                 In App MrDriver Marketplace
                                 Offering opportunities for drivers and passengers to trade their NFTs and generate various benefits for users.
                             </p>
 
-                            <p className='lg:w-9/12 mt-6 lg:text-xl font-medium'>
+                            <p data-aos='slide-up' className='lg:w-9/12 mt-6 lg:text-xl font-medium'>
                                 In App Staking DeFi Pools
                                 Earn more by staking BDR MDR and your NFTs Via MrDriver MasterChef smart contract
                             </p>
