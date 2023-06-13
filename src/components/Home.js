@@ -259,7 +259,7 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <img data-aos='flip-left' src={car} alt="Logo" className='felx mx-auto w-10/12' />
+                        <img data-aos='zoom-in' src={car} alt="Logo" className='felx mx-auto w-10/12' />
 
                         <div data-aos='fade-down' className='lg:flex hidden gap-x-8 absolute right-1/4 -mr-12 -mt-48'>
 
