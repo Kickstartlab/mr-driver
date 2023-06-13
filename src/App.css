@@ -21,9 +21,35 @@
   height: 820px;
 }
 
+.line_1 {
+  background: #FFC122;
+  animation: line_1 6s infinite;
+}
+
+@keyframes line_1 {
+  0% {
+    height: 0px;
+  }
+
+  100% {
+    height: 820px;
+  }
+}
+
 .line {
   background: #FFC122;
-  box-shadow: inset 2.62388px 14.8687px 32.3612px rgba(3, 3, 3, 0.6), inset 0px 0px 4.37313px rgba(255, 255, 255, 0.1);
+  animation: line 6s infinite linear;
+  animation-delay: 3s;
+}
+
+@keyframes line {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
 }
 
 #tsparticles {
