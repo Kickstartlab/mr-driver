@@ -29,7 +29,6 @@ import time from '../assets/time.png';
 import time_1 from '../assets/time_1.png';
 import time_2 from '../assets/time_2.png';
 import time_3 from '../assets/time_3.png';
-import time_4 from '../assets/time_4.png';
 import time_5 from '../assets/time_5.png';
 
 import Aos from 'aos';
