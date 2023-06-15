@@ -1,6 +1,8 @@
 import React from 'react'
 import twitter from '../assets/twitter.png';
 import telegram from '../assets/telegram.png';
+import youtube from '../assets/youtube.png';
+import github from '../assets/github.png';
 import logo from '../assets/logo.png';
 
 
@@ -27,8 +29,10 @@ export default function Footer() {
           <p className='text-center'>© {new Date().getFullYear()} Mr. Driver. All rights reserved.</p>
 
           <div className='flex justify-center gap-6 items-center'>
-            <a href='/'><img src={telegram} alt="Logo" className='' /></a>
-            <a href='/'><img src={twitter} alt="Logo" className='' /></a>
+            <a href='https://t.me/MrDriver_Official'><img src={telegram} alt="Telegram" className='' /></a>
+            <a href='https://twitter.com/MrDriver_io'><img src={twitter} alt="Twitter" className='' /></a>
+            <a href='https://www.youtube.com/@MrDriver_News/videos'><img src={youtube} alt="Youtube" className='' /></a>
+            <a href='https://github.com/MrDriverOfficial/MrDriver'><img src={github} alt="Github" className='' /></a>
           </div>
         </div>
 

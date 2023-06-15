@@ -12,15 +12,30 @@ export default function Menu() {
 
     <header>
 
-      <div className="lg:flex hidden items-center justify-between font-urbanist h-24">
+      <div className="lg:flex hidden items-end justify-between font-urbanist h-24">
 
         <nav>
           <ul className="text-md flex justify-center gap-12 items-center text-white-100">
-            <li><a href="/" className="text-zinc-100">Staking</a></li>
-            <li><a href="/" className="cursor-pointer">Banking</a></li>
-            <li><a href="#about" className="cursor-pointer">Vote</a></li>
-            <li><a href="/" className="cursor-pointer">Marketplace</a></li>
-            <li><a href="/" className="cursor-pointer">Lottery</a></li>
+            <li className='flex flex-col'>
+              <a href="/" className="font-semibold text-lg">Staking</a>
+              <span className='text-xs text-blue-200'>Coming Soon</span>
+            </li>
+            <li className='flex flex-col'>
+              <a href="/" className="font-semibold text-lg">Banking</a>
+              <span className='text-xs text-blue-200'>Coming Soon</span>
+            </li>
+            <li className='flex flex-col'>
+              <a href="/" className="font-semibold text-lg">Vote</a>
+              <span className='text-xs text-blue-200'>Coming Soon</span>
+            </li>
+            <li className='flex flex-col'>
+              <a href="/" className="font-semibold text-lg">Marketplace</a>
+              <span className='text-xs text-blue-200'>Coming Soon</span>
+            </li>
+            <li className='flex flex-col'>
+              <a href="/" className="font-semibold text-lg">Lottery</a>
+              <span className='text-xs text-blue-200'>Coming Soon</span>
+            </li>
           </ul>
         </nav>
 
@@ -53,23 +68,28 @@ export default function Menu() {
               <img src={logo} alt="Logo" />
             </a>
           </div>
-          <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md transition duration-500 cursor-pointer  text-white-100">
-            <a href="/" className="text-lg ml-4 font-semibold">Staking</a>
+          <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex flex-col text-white-100 px-4">
+            <a href="/" className="text-lg font-semibold">Staking</a>
+            <span className='text-xs text-blue-200'>Coming Soon</span>
           </button>
-          <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md duration-300 cursor-pointer  text-white-100">
-            <a href="/" className="text-lg ml-4 font-semibold">Banking</a>
+          <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex flex-col text-white-100 px-4">
+            <a href="/" className="text-lg font-semibold">Banking</a>
+            <span className='text-xs text-blue-200'>Coming Soon</span>
           </button>
-          <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md duration-300 cursor-pointer  text-white-100">
-            <a href="#about" className="text-lg ml-4 font-semibold">Vote</a>
+          <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex flex-col text-white-100 px-4">
+            <a href="/" className="text-lg font-semibold">Vote</a>
+            <span className='text-xs text-blue-200'>Coming Soon</span>
           </button>
-          <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md duration-300 cursor-pointer  text-white-100">
-            <a href="/" className="text-lg ml-4 font-semibold">Marketplace</a>
+          <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex flex-col text-white-100 px-4">
+            <a href="/" className="text-lg font-semibold">Marketplace</a>
+            <span className='text-xs text-blue-200'>Coming Soon</span>
           </button>
-          <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md duration-300 cursor-pointer  text-white-100">
-            <a href="/" className="text-lg ml-4 font-semibold">Lottery</a>
+          <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex flex-col text-white-100 px-4">
+            <a href="/" className="text-lg font-semibold">Lottery</a>
+            <span className='text-xs text-blue-200'>Coming Soon</span>
           </button>
-          <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md duration-300 cursor-pointer  text-black-100 bg-white-100">
-            <a href="/" className="text-lg ml-4 font-semibold">Connect Wallet</a>
+          <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex  text-black-100 bg-white-100 px-4 rounded-md">
+            <a href="/" className="text-lg font-semibold">Connect Wallet</a>
           </button>
         </div> : null
       }
