@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import Footer from './Footer'
 import Menu from './Menu'
 import logo from '../assets/logo.png';
@@ -33,54 +33,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Accordion from './Accordion';
 import Particle from './Particle';
-import ProgressBar from './ProgressBar';
 export default function Home() {
-
-    // const [value, setValue] = useState(0);
-
-    // useEffect(() => {
-    //     const interval = setInterval(() => {
-    //         setValue(oldValue => {
-    //             const newValue = oldValue + 7.5;
-
-    //             if (newValue === 15) {
-    //                 const show = document.getElementById('node_1');
-    //                 show.className = 'flex items-end gap-x-0 absolute left-0 ml-52 mt-52 w-56 translate-y-44'
-    //             }
-
-    //             if (newValue === 30) {
-    //                 const show = document.getElementById('node_2');
-    //                 show.className = 'flex items-end gap-x-0 absolute left-1/4 ml-10 mt-28 w-64'
-    //             }
-
-    //             if (newValue === 45) {
-    //                 const show = document.getElementById('node_3');
-    //                 show.className = 'flex items-end  gap-x-0 absolute left-1/2 -ml-28 mt-52 w-56 translate-y-44'
-    //             }
-
-    //             if (newValue === 60) {
-    //                 const show = document.getElementById('node_4');
-    //                 show.className = 'flex items-end gap-x-0 absolute mr-12 right-1/4 mt-28 w-56'
-    //             }
-
-    //             if (newValue === 75) {
-    //                 const show = document.getElementById('node_5');
-    //                 show.className = 'flex items-start gap-x-0 absolute right-0 mr-44 mt-52 w-64 translate-y-44'
-    //             }
-
-    //             if (newValue === 90) {
-    //                 const show = document.getElementById('node_6');
-    //                 show.className = 'flex items-start gap-x-0 absolute right-0 -mr-4 mt-56 w-56'
-    //             }
-
-    //             if (newValue === 100) {
-    //                 clearInterval(interval);
-    //             }
-
-    //             return newValue;
-    //         });
-    //     }, 1500);
-    // }, []);
 
     useEffect(() => {
         Aos.init({
@@ -125,7 +78,7 @@ export default function Home() {
 
             {/* top section */}
 
-            <div className="lg:px-20 px-5 bg-top relative z-20">
+            <div className="lg:px-20 px-5 relative z-20">
                 <div className='container mx-auto'>
 
                     <Menu />
@@ -147,7 +100,7 @@ export default function Home() {
                     </div>
 
                     <div>
-                        <img src={bg_top} alt="Logo" className='absolute left-0 right-0' />
+                        <img src={bg_top} alt="Logo" className='absolute left-0 right-0 -z-10 mt-8' />
                     </div>
 
                     <div className="flex flex-col justify-center items-center gap-y-12 py-20">
@@ -160,26 +113,32 @@ export default function Home() {
                                     <img src={top_2} alt="Logo" className='' />
                                 </div>
 
-                                <div className='flex items-center gap-x-4 bg-blue-100 py-2 px-3 rounded-xl'>
-                                    <img src={kyc} alt="Logo" className='' />
-                                    <p>
-                                        KYC
-                                    </p>
-                                </div>
+                                <a href='https://github.com/solidproof/projects/tree/main/MrDriver'>
+                                    <div className='flex items-center gap-x-4 bg-blue-100 py-2 px-3 rounded-xl'>
+                                        <img src={kyc} alt="Logo" className='' />
+                                        <p>
+                                            KYC
+                                        </p>
+                                    </div>
+                                </a>
 
-                                <div className='flex items-center gap-x-4 bg-yellow-200 py-2 px-3 rounded-xl'>
-                                    <img src={kyc_1} alt="Logo" className='' />
-                                    <p>
-                                        KYC
-                                    </p>
-                                </div>
+                                <a href='https://pinksale.notion.site/MrDriver-KYC-Verification-c235539dae50472db325f09c637ec4a6'>
+                                    <div className='flex items-center gap-x-4 bg-yellow-200 py-2 px-3 rounded-xl'>
+                                        <img src={kyc_1} alt="Logo" className='' />
+                                        <p>
+                                            KYC
+                                        </p>
+                                    </div>
+                                </a>
 
-                                <div className='flex items-center gap-x-4 bg-blue-100 py-2 px-3 rounded-xl'>
-                                    <img src={kyc} alt="Logo" className='' />
-                                    <p>
-                                        Audit
-                                    </p>
-                                </div>
+                                <a href='https://github.com/solidproof/projects/tree/main/MrDriver'>
+                                    <div className='flex items-center gap-x-4 bg-blue-100 py-2 px-3 rounded-xl'>
+                                        <img src={kyc} alt="Logo" className='' />
+                                        <p>
+                                            Audit
+                                        </p>
+                                    </div>
+                                </a>
 
                                 <div className='flex items-center px-12 border-2 border-yellow-300 py-3 rounded-xl'>
                                     <span className='bg-yellow-300 py-1 px-2 rounded-full text-xs absolute -mt-12 ml-12'>Coming Soon</span>
@@ -213,7 +172,7 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <div className='relative z-20 lg:mt-20 font-montserat'>
+                    <div id='top' className='relative z-20 lg:mt-20 font-montserat'>
 
                         <div data-aos='fade-up' className='lg:flex hidden gap-x-4 absolute left-1/3 -mt-8 -ml-12'>
                             <p>Environmental<br></br>
@@ -689,7 +648,6 @@ export default function Home() {
                         </div>
 
                         <div className='mt-44 h-1.5 bg-black-20'>
-                            {/* <ProgressBar max-width={"100%"} value={value} /> */}
                         </div>
                         <div className='-mt-1.5 h-1.5 bg-yellow-100 line'>
                         </div>
