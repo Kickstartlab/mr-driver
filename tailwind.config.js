@@ -28,7 +28,8 @@ module.exports = {
     },
     fontFamily: {
       'montserat': ["'Montserrat', sans-serif"],
-      'urbanist': ["'Urbanist', sans-serif"]
+      'urbanist': ["'Urbanist', sans-serif"],
+      'argent': ["argent"]
     }
   },
   plugins: [],

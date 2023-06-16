@@ -19,7 +19,6 @@ import partner_3 from '../assets/partner_3.png';
 import partner_4 from '../assets/partner_4.png';
 import partner_5 from '../assets/partner_5.png';
 import partner_6 from '../assets/partner_6.png';
-
 import mobile from '../assets/mobile.png';
 import car from '../assets/car.png';
 import bg_top from '../assets/bg_top.png';
@@ -326,7 +325,7 @@ export default function Home() {
                         </svg>
                         Utilities
                     </div>
-                    <h2 data-aos='slide-right' className='md:text-5xl text-3xl font-bold text-white-100'>
+                    <h2 data-aos='slide-right' className='md:text-5xl text-3xl font-bold text-white-100 font-argent'>
                         UTILITIES
                     </h2>
 
@@ -338,7 +337,7 @@ export default function Home() {
                             </div>
 
                             <div className='space-y-6 lg:w-10/12'>
-                                <h2 className='md:text-5xl text-2xl font-urbanist font-bold'>
+                                <h2 className='md:text-5xl text-2xl font-argent'>
                                     Solo Mode
                                 </h2>
 
@@ -350,7 +349,7 @@ export default function Home() {
 
                         <div data-aos="fade-left" className='lg:flex gap-x-8 justify-between'>
                             <div className='space-y-6 lg:text-right lg:w-10/12'>
-                                <h2 className='md:text-5xl text-2xl font-urbanist font-bold'>
+                                <h2 className='md:text-5xl text-2xl font-argent'>
                                     Peer To Peer Mode
                                 </h2>
 
@@ -370,7 +369,7 @@ export default function Home() {
                             </div>
 
                             <div className='space-y-6 lg:w-10/12'>
-                                <h2 className='md:text-5xl text-2xl font-urbanist font-bold'>
+                                <h2 className='md:text-5xl text-2xl font-argent'>
                                     Artificial Intelligence
                                 </h2>
 
@@ -382,7 +381,7 @@ export default function Home() {
 
                         <div data-aos="fade-left" className='lg:flex gap-x-8 justify-between'>
                             <div className='space-y-6 lg:text-right lg:w-10/12'>
-                                <h2 className='md:text-5xl text-2xl font-urbanist font-bold'>
+                                <h2 className='md:text-5xl text-2xl font-argent'>
                                     MrDriver & Passenger NFTS
                                 </h2>
 
@@ -407,7 +406,7 @@ export default function Home() {
                             </div>
 
                             <div className='space-y-6 lg:w-10/12'>
-                                <h2 className='md:text-5xl text-2xl font-urbanist font-bold'>
+                                <h2 className='md:text-5xl text-2xl font-argent'>
                                     MrDriver Games
                                 </h2>
 
@@ -437,7 +436,7 @@ export default function Home() {
                         </svg>
                         Tokenomics
                     </div>
-                    <h2 data-aos='slide-right' className='md:text-5xl text-3xl font-bold text-white-100'>
+                    <h2 data-aos='slide-right' className='md:text-5xl text-3xl font-argent text-white-100'>
                         Tokenomics
                     </h2>
 
@@ -460,7 +459,7 @@ export default function Home() {
                             </svg>
                             Roadmap
                         </div>
-                        <h2 data-aos='slide-right' className='md:text-5xl text-3xl font-bold text-white-100'>
+                        <h2 data-aos='slide-right' className='md:text-5xl text-3xl font-argent text-white-100'>
                             ROADMAP
                         </h2>
                     </div>
@@ -719,7 +718,7 @@ export default function Home() {
                                 </svg>
                                 Team
                             </div>
-                            <h2 data-aos='slide-right' className='md:text-5xl text-3xl font-bold text-white-100 pb-6'>
+                            <h2 data-aos='slide-right' className='md:text-5xl text-3xl font-argent text-white-100 pb-6'>
                                 Meet Our Amazing Team
                             </h2>
 
@@ -762,7 +761,7 @@ export default function Home() {
                         </svg>
                         Partners
                     </div>
-                    <h2 data-aos='slide-right' className='md:text-5xl text-3xl font-bold text-white-100'>
+                    <h2 data-aos='slide-right' className='md:text-5xl text-3xl font-argent text-white-100'>
                         Some Of Our Amazing Partners
                     </h2>
                     <p data-aos='fade-up' className='lg:w-1/2 mt-6 lg:text-lg font-medium'>
@@ -836,7 +835,7 @@ export default function Home() {
                             </svg>
                             FAQ
                         </div>
-                        <h2 data-aos='slide-right' className='md:text-5xl text-3xl font-bold text-yellow-100'>
+                        <h2 data-aos='slide-right' className='md:text-5xl text-3xl font-argent text-yellow-100'>
                             Frequently asked questions
                         </h2>
 
@@ -862,7 +861,7 @@ export default function Home() {
                         </svg>
                         Team
                     </div>
-                    <h2 data-aos='slide-right' className='md:text-5xl text-3xl font-bold text-white-100'>
+                    <h2 data-aos='slide-right' className='md:text-5xl text-3xl font-argent text-white-100'>
                         Meet Our Amazing Team
                     </h2>
                     <p data-aos='fade-up' className='lg:w-1/2 mt-6 lg:text-lg font-medium'>

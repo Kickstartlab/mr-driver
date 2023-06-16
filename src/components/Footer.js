@@ -17,7 +17,7 @@ export default function Footer() {
         <nav>
           <ul className="text-md flex flex-wrap justify-center lg:gap-12 gap-6 items-center text-white-100 mt-8">
             <li><a href="#about" className="">About Us</a></li>
-            <li><a href="/" className="">Github</a></li>
+            <li><a href="https://github.com/MrDriverOfficial/MrDriver" className="">Github</a></li>
             <li><a href="#about" className="">Documentation</a></li>
             <li><a href="/" className="">Audit</a></li>
             <li><a href="#tokenomics" className="">Tokenomics</a></li>
