@@ -58,22 +58,29 @@ export default function Home() {
         {
             numbers: '02',
             title: 'What is MDR Stake?',
-            content: `MDR is the MrDriver project governance token and has an important role in the ecosystem.We developed it on Binance Smart Chain (BSC) BEP20, designed to empower the whole ecosystem.`
+            content: `Based on our Block Emission MDR smart contract sends 11/520 MDR per day (345/600 MDR per month) into the MDR staking pool To support and encourage holders
+            MDR holders can stake MDR in periods of 3 months, 6 months, 9 months, and 1 year to receive these rewards
+            Users can harvest their profit any time, but Early unstake has a 30% fee, And this amount is sent to the dynamic Burn mechanism`
         },
         {
             numbers: '03',
             title: 'What is NFT Marketplace',
-            content: `MDR is the MrDriver project governance token and has an important role in the ecosystem.We developed it on Binance Smart Chain (BSC) BEP20, designed to empower the whole ecosystem.`
+            content: `Drivers Able to Trade their NFTs in our marketplace with MDR BUSD and BNB`
         },
         {
             numbers: '04',
             title: 'What is Bank?',
-            content: `MDR is the MrDriver project governance token and has an important role in the ecosystem.We developed it on Binance Smart Chain (BSC) BEP20, designed to empower the whole ecosystem.`
+            content: `MDR holders can ask for loans from the platform or other users in a P2P system`
         },
         {
-            numbers: '04',
+            numbers: '05',
             title: 'What is BDR Stake?',
-            content: `MDR is the MrDriver project governance token and has an important role in the ecosystem.We developed it on Binance Smart Chain (BSC) BEP20, designed to empower the whole ecosystem.`
+            content: `Solo mode Drivers earn Daily BDR for their activity and driving; they can stake BDR tokens and earn MDR for use to pay Lvl up costs and Maintenance fees.
+            This will keep the Drivers' enthusiasm and motivation and help them increase their levels faster and enjoy using the platform.
+            We want to ensure all the Drivers can earn passive income from the platform, And they can use it as a subsidy for their car repairs and other necessary things in the real world.
+            How is the APR calculated?
+            APR depends on the size the amount of BDR staked and the number of participants in the pool based on our Block Emission MDR smart contract sends 1/152 MDR per day (34/560 MDR every month) into this pool to support the Online drivers in Solo mode
+            BDR pool don't have withdraw function and will be locked on the contract permanently.`
         }
     ];
 
