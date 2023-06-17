@@ -13,6 +13,10 @@ import team_1 from '../assets/team_1.png';
 import team_2 from '../assets/team_2.png';
 import team_3 from '../assets/team_3.png';
 import team_4 from '../assets/team_4.png';
+import team_5 from '../assets/team_5.png';
+import team_6 from '../assets/team_6.png';
+import team_7 from '../assets/team_7.png';
+import team_8 from '../assets/team_8.png';
 import partner_1 from '../assets/partner_1.png';
 import partner_2 from '../assets/partner_2.png';
 import partner_3 from '../assets/partner_3.png';
@@ -423,61 +427,83 @@ export default function Home() {
                         </h2>
                     </div>
 
-                    <div className='lg:hidden flex items-center gap-x-4 pt-8'>
-
-                        <div className='translate-y-90 w-2.5 bg-black-20 h-800'>
-                        </div>
-                        <div className='translate-y-90 w-2 -translate-x-6 line_1 h-800'>
-                        </div>
+                    <div className='lg:hidden block pt-8'>
 
                         <div className='flex flex-col gap-y-8'>
 
                             <div data-aos="fade-right" className='border-b-2'>
-                                <h5 className='text-2xl font-semibold'>Concept</h5>
                                 <ul className='p-4 list-disc'>
-                                    <li>Concept Generation</li>
-                                    <li>Team Assemble</li>
+                                    <li>Completion of the white paper and pitch deck</li>
+                                    <li>Develop Website</li>
+                                    <li>UI/UX design</li>
+                                    <li>Develop MDR contract and mint 10% for
+                                        seed/Private sale /public sale
+                                    </li>
                                 </ul>
                             </div>
 
                             <div data-aos="fade-right" className='border-b-2'>
-                                <h5 className='text-2xl font-semibold'>Research</h5>
                                 <ul className='p-4 list-disc'>
-                                    <li>Proving the concept can work</li>
-                                    <li>Strategic Plan</li>
-                                    <li>White paper conpletion</li>
+                                    <li>Funding by angel investors</li>
+                                    <li>Develop MasterChef contract</li>
+                                    <li>Audit smart contracts</li>
+                                    <li>KYC team certificate</li>
+                                    <li>App initial prototype</li>
                                 </ul>
                             </div>
 
                             <div data-aos="fade-right" className='border-b-2'>
-                                <h5 className='text-2xl font-semibold'>Design</h5>
                                 <ul className='p-4 list-disc'>
-                                    <li>Platform design and technical de monstration</li>
-                                    <li>Building the MVP</li>
+                                    <li>Funding by VCs</li>
+                                    <li>Registering company in UAE</li>
+                                    <li>Expanding the team by hiring CMO BD and CTO </li>
+                                    <li>Airdrop/marketing Campaigns</li>
+                                    <li>App interactive prototype</li>
+                                    <li>Ambassadors Activation</li>
                                 </ul>
                             </div>
 
                             <div data-aos="fade-right" className='border-b-2'>
-                                <h5 className='text-2xl font-semibold'>Pre-sale</h5>
                                 <ul className='p-4 list-disc'>
-                                    <li>Public financing & Seed funding raised</li>
+                                    <li>Token Private sale</li>
+                                    <li>Testnet development</li>
+                                    <li>Community beta test</li>
+                                    <li>Bug fixed</li>
+                                    <li>Update the App with new features and optimized interface</li>
+                                    <li>Listing MDR</li>
+                                    <li>Integrate AI into the project</li>
                                 </ul>
                             </div>
 
                             <div data-aos="fade-right" className='border-b-2'>
-                                <h5 className='text-2xl font-semibold'>App Beta Test</h5>
                                 <ul className='p-4 list-disc'>
-                                    <li>Private closed beta</li>
-                                    <li>Open beta launched to public and improvement the app</li>
+                                    <li>Token public sale </li>
+                                    <li>Main net development </li>
+                                    <li>DAO form,VIP services and lottery development</li>
+                                    <li>Develop BDR smart contract</li>
+                                    <li>Develop drivers and passengers NFT</li>
+                                    <li>Develope MDR BDR and NFT reward pools</li>
+                                    <li>Launch project on mainnet</li>
+                                    <li>MrDriver bank development</li>
+                                    <li>Bank security check</li>
+                                    <li>Lunch bank</li>
                                 </ul>
                             </div>
 
                             <div data-aos="fade-right" className='border-b-2'>
-                                <h5 className='text-2xl font-semibold'>Token Sale</h5>
                                 <ul className='p-4 list-disc'>
-                                    <li>ICO Press Tour</li>
-                                    <li>Open global sales of
-                                        ICOblock token</li>
+                                    <li>MrDriver bank development</li>
+                                    <li>Bank security check</li>
+                                    <li>Lunch bank</li>
+                                    <li>Smart insurance development</li>
+                                    <li>Cargo and vehicle development</li>
+                                </ul>
+                            </div>
+
+                            <div data-aos="fade-right" className='border-b-2'>
+                                <ul className='p-4 list-disc'>
+                                    <li>Develop/launch MrDriver online shop</li>
+                                    <li>Develop/launch MrDriver DEX</li>
                                 </ul>
                             </div>
                         </div>
@@ -491,7 +517,6 @@ export default function Home() {
                             <div id='node_1' className='flex items-end gap-x-0 absolute left-0 ml-8 mt-52 translate-y-44'>
 
                                 <div className='-translate-y-8 flex flex-col items-center justify-center'>
-
                                     <h4 className='text-2xl font-semibold'>2023 <span className='text-yellow-100'>Q1</span></h4>
 
                                     <svg width="32" height="32" viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -506,17 +531,19 @@ export default function Home() {
                                 </div>
 
                                 <div className='-translate-y-6 -translate-x-6'>
-                                    <h5 className='text-2xl font-semibold'>Concept</h5>
-                                    <ul className='p-4 list-disc'>
-                                        <li>Concept Generation</li>
-                                        <li>Team Assemble</li>
+                                    <ul className='pl-3 list-disc w-56 translate-y-12'>
+                                        <li>Completion of the white paper and pitch deck</li>
+                                        <li>Develop Website</li>
+                                        <li>UI/UX design</li>
+                                        <li>Develop MDR contract and mint 10% for
+                                            seed/Private sale /public sale
+                                        </li>
                                     </ul>
                                 </div>
 
                             </div>
 
-                            <div data-aos='slide-down' id='node_2' className='flex items-end gap-x-0 absolute left-1/4 -ml-36 mt-32'>
-
+                            <div data-aos='slide-down' id='node_2' className='flex items-end gap-x-0 absolute left-1/4 -ml-40 mt-32'>
                                 <div className='translate-y-12 flex flex-col items-center justify-center'>
                                     <svg width="4" height="170" viewBox="0 0 2 211" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <line opacity="0.3" x1="0.797675" y1="-2.02072e-08" x2="0.797685" y2="210.803" stroke="#FFE000" strokeWidth="0.924575" />
@@ -527,25 +554,25 @@ export default function Home() {
                                         <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#FF9518" />
                                     </svg>
 
-                                    <h4 className='text-2xl font-semibold'>2023 <span className='text-yellow-100'>Q1</span></h4>
+                                    <h4 className='text-2xl font-semibold'>2023 <span className='text-yellow-100'>Q2</span></h4>
                                 </div>
 
                                 <div>
-                                    <h5 className='text-2xl font-semibold'>Research</h5>
-                                    <ul className='p-4 list-disc'>
-                                        <li>Proving the concept can work</li>
-                                        <li>Strategic Plan</li>
-                                        <li>White paper conpletion</li>
+                                    <ul className='list-disc -translate-y-16'>
+                                        <li>Funding by angel investors</li>
+                                        <li>Develop MasterChef contract</li>
+                                        <li>Audit smart contracts</li>
+                                        <li>KYC team certificate</li>
+                                        <li>App initial prototype</li>
                                     </ul>
                                 </div>
 
                             </div>
 
-                            <div id='node_3' className='flex items-end gap-x-0 absolute left-1/2 -ml-56 mt-32 translate-y-56'>
+                            <div id='node_3' className='flex items-end gap-x-0 absolute left-1/3 -ml-20 mt-32 translate-y-56'>
 
                                 <div className='-translate-y-10 flex flex-col items-center justify-center'>
-
-                                    <h4 className='text-2xl font-semibold'>2023 <span className='text-yellow-100'>Q1</span></h4>
+                                    <h4 className='text-2xl font-semibold'>2023 <span className='text-yellow-100'>Q3</span></h4>
 
                                     <svg width="32" height="32" viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <circle opacity="0.2" cx="19.0471" cy="19.4725" r="18.5609" fill="#FF9518" />
@@ -555,23 +582,25 @@ export default function Home() {
                                     <svg width="4" height="170" viewBox="0 0 2 211" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <line opacity="0.3" x1="0.797675" y1="-2.02072e-08" x2="0.797685" y2="210.803" stroke="#FFE000" strokeWidth="0.924575" />
                                     </svg>
-
                                 </div>
 
                                 <div className='-translate-y-6 -translate-x-6'>
-                                    <h5 className='text-2xl font-semibold'>Design</h5>
-                                    <ul className='p-4 list-disc'>
-                                        <li>Platform design and technical<br></br> de monstration</li>
-                                        <li>Building the MVP</li>
+                                    <ul className='ml-3 list-disc translate-y-3'>
+                                        <li>Funding by VCs</li>
+                                        <li>Registering company in UAE</li>
+                                        <li>Expanding the team by hiring CMO BD and CTO </li>
+                                        <li>Airdrop/marketing Campaigns</li>
+                                        <li>App interactive prototype</li>
+                                        <li>Ambassadors Activation</li>
                                     </ul>
                                 </div>
 
                             </div>
 
-                            <div data-aos='slide-down' id='node_4' className='flex items-end gap-x-0 absolute mr-24 right-1/4 mt-24'>
+                            <div data-aos='slide-down' id='node_4' className='flex items-end gap-x-0 absolute mr-36 right-1/4 mt-24'>
 
-                                <div className='translate-y-16 flex flex-col items-center justify-center'>
-                                    <svg width="4" height="170" viewBox="0 0 2 211" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <div className='translate-y-12 flex flex-col items-center justify-center'>
+                                    <svg width="4" height="200" viewBox="0 0 2 211" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <line opacity="0.3" x1="0.797675" y1="-2.02072e-08" x2="0.797685" y2="210.803" stroke="#FFE000" strokeWidth="0.924575" />
                                     </svg>
 
@@ -580,23 +609,28 @@ export default function Home() {
                                         <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#FF9518" />
                                     </svg>
 
-                                    <h4 className='text-2xl font-semibold'>2023 <span className='text-yellow-100'>Q1</span></h4>
+                                    <h4 className='text-2xl font-semibold'>2023 <span className='text-yellow-100'>Q4</span></h4>
                                 </div>
 
                                 <div>
-                                    <h5 className='text-2xl font-semibold'>Pre-Sale</h5>
-                                    <ul className='p-4 list-disc'>
-                                        <li>Public financing & Seed<br></br> funding raised</li>
+                                    <ul className='-translate-y-12 list-disc w-64'>
+                                        <li>Token Private sale</li>
+                                        <li>Testnet development</li>
+                                        <li>Community beta test</li>
+                                        <li>Bug fixed</li>
+                                        <li>Update the App with new features and optimized interface</li>
+                                        <li>Listing MDR</li>
+                                        <li>Integrate AI into the project</li>
                                     </ul>
                                 </div>
 
                             </div>
 
-                            <div id='node_5' className='flex items-end gap-x-0 absolute right-0 mr-32 mt-52 translate-y-44'>
+                            <div id='node_5' className='flex items-end gap-x-0 absolute right-0 mr-56 mt-52 translate-y-44'>
 
                                 <div className='-translate-y-8 flex flex-col items-center justify-center'>
 
-                                    <h4 className='text-2xl font-semibold'>2023 <span className='text-yellow-100'>Q1</span></h4>
+                                    <h4 className='text-2xl font-semibold'>2024 <span className='text-yellow-100'>Q1</span></h4>
 
                                     <svg width="32" height="32" viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <circle opacity="0.2" cx="19.0471" cy="19.4725" r="18.5609" fill="#FF9518" />
@@ -610,18 +644,25 @@ export default function Home() {
                                 </div>
 
                                 <div className='-translate-y-6 -translate-x-6'>
-                                    <h5 className='text-2xl font-semibold'>App Beta Test</h5>
-                                    <ul className='p-4 list-disc'>
-                                        <li>Private closed beta</li>
-                                        <li>Open beta launched to<br></br> public and improvement the app</li>
+                                    <ul className='ml-3 list-disc translate-y-24'>
+                                        <li>Token public sale </li>
+                                        <li>Main net development </li>
+                                        <li>DAO form,VIP services and lottery development</li>
+                                        <li>Develop BDR smart contract</li>
+                                        <li>Develop drivers and passengers NFT</li>
+                                        <li>Develope MDR BDR and NFT reward pools</li>
+                                        <li>Launch project on mainnet</li>
+                                        <li>MrDriver bank development</li>
+                                        <li>Bank security check</li>
+                                        <li>Lunch bank</li>
                                     </ul>
                                 </div>
 
                             </div>
 
-                            <div data-aos='slide-down' id='node_6' className='flex items-end gap-x-0 absolute right-0 mr-2 mt-28'>
+                            <div data-aos='slide-down' id='node_6' className='flex items-end gap-x-0 absolute right-0 mr-28 mt-28'>
 
-                                <div className='translate-y-12 flex flex-col items-center justify-center'>
+                                <div className='translate-y-14 flex flex-col items-center justify-center'>
                                     <svg width="4" height="170" viewBox="0 0 2 211" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <line opacity="0.3" x1="0.797675" y1="-2.02072e-08" x2="0.797685" y2="210.803" stroke="#FFE000" strokeWidth="0.924575" />
                                     </svg>
@@ -631,31 +672,60 @@ export default function Home() {
                                         <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#FF9518" />
                                     </svg>
 
-                                    <h4 className='text-2xl font-semibold'>2023 <span className='text-yellow-100'>Q1</span></h4>
+                                    <h4 className='text-2xl font-semibold'>2024 <span className='text-yellow-100'>Q2</span></h4>
                                 </div>
 
                                 <div>
-                                    <h5 className='text-2xl font-semibold'>Token Sale</h5>
-                                    <ul className='p-4 list-disc'>
-                                        <li>ICO Press Tour</li>
-                                        <li>Open global sales of<br></br>
-                                            ICOblock token</li>
+                                    <ul className='list-disc'>
+                                        <ul className='-translate-y-12 list-disc'>
+                                            <li>MrDriver bank development</li>
+                                            <li>Bank security check</li>
+                                            <li>Lunch bank</li>
+                                            <li>Smart insurance development</li>
+                                            <li>Cargo and vehicle development</li>
+                                        </ul>
                                     </ul>
                                 </div>
 
+                            </div>
+
+                            <div id='node_7' className='flex items-end gap-x-0 absolute right-0 mt-52 translate-y-44'>
+
+                                <div className='-translate-y-8 flex flex-col items-center justify-center'>
+
+                                    <h4 className='text-2xl font-semibold'>2024 <span className='text-yellow-100'>Q3</span></h4>
+
+                                    <svg width="32" height="32" viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle opacity="0.2" cx="19.0471" cy="19.4725" r="18.5609" fill="#FF9518" />
+                                        <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#FF9518" />
+                                    </svg>
+
+                                    <svg width="4" height="170" viewBox="0 0 2 211" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <line opacity="0.3" x1="0.797675" y1="-2.02072e-08" x2="0.797685" y2="210.803" stroke="#FFE000" strokeWidth="0.924575" />
+                                    </svg>
+
+                                </div>
+
+                                <div className='-translate-y-12 -translate-x-6'>
+                                    <ul className='list-disc'>
+                                        <li>Develop/launch MrDriver<br></br> online shop</li>
+                                        <li>Develop/launch MrDriver <br></br>DEX</li>
+                                    </ul>
+                                </div>
                             </div>
 
                         </div>
 
+                    </div>
+
+                    <div className='lg:block hidden'>
                         <div className='mt-44 h-1.5 bg-black-20'>
                         </div>
                         <div className='-mt-1.5 h-1.5 bg-yellow-100 line'>
                         </div>
-
-
                     </div>
-                </div>
 
+                </div>
             </div>
 
             {/* mobile application */}
@@ -680,20 +750,32 @@ export default function Home() {
                                 Meet Our Amazing Team
                             </h2>
 
-                            <p data-aos='slide-up' className='lg:w-9/12 mt-6 lg:text-xl font-medium'>
-                                In App MrDriver Non-custodial wallet
-                                Safe and secure way to pay and receive transportation fares
-                            </p>
+                            <div data-aos='slide-up' className='lg:w-9/12 mt-6' >
+                                <p className='lg:text-2xl text-xl font-bold'>
+                                    In App MrDriver Non-custodial wallet
+                                </p>
+                                <p className='lg:text-xl font-medium'>
+                                    Safe and secure way to pay and receive transportation fares
+                                </p>
+                            </div>
 
-                            <p data-aos='slide-up' className='lg:w-9/12 mt-6 lg:text-xl font-medium'>
-                                In App MrDriver Marketplace
-                                Offering opportunities for drivers and passengers to trade their NFTs and generate various benefits for users.
-                            </p>
+                            <div data-aos='slide-up' className='lg:w-9/12 mt-6' >
+                                <p className='lg:text-2xl text-xl font-bold'>
+                                    In App MrDriver Marketplace
+                                </p>
+                                <p className='lg:text-xl font-medium'>
+                                    Offering opportunities for drivers and passengers to trade their NFTs and generate various benefits for users.
+                                </p>
+                            </div>
 
-                            <p data-aos='slide-up' className='lg:w-9/12 mt-6 lg:text-xl font-medium'>
-                                In App Staking DeFi Pools
-                                Earn more by staking BDR MDR and your NFTs Via MrDriver MasterChef smart contract
-                            </p>
+                            <div data-aos='slide-up' className='lg:w-9/12 mt-6' >
+                                <p className='lg:text-2xl text-xl font-bold'>
+                                    In App Staking DeFi Pools
+                                </p>
+                                <p className='lg:text-xl font-medium'>
+                                    Earn more by staking BDR MDR and your NFTs Via MrDriver MasterChef smart contract
+                                </p>
+                            </div>
                         </div>
 
                         <div data-aos='fade-up' className=''>
@@ -826,7 +908,7 @@ export default function Home() {
                         The MrDriver team is made up of the best experts and professionals with years of experience in the technology and digital currency industries. The team's size will gradually increase as the project moves forward, and we will add more specialists to the group in order to provide our users with the highest-quality products.
                     </p>
 
-                    <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6 items-baseline lg:mt-20 mt-6'>
+                    <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:grid-rows-2 grid-rows-1 gap-6 items-baseline lg:mt-20 mt-6'>
 
                         <div data-aos='flip-right' className='flex flex-col items-center text-center gap-y-6 group cursor-pointer'>
                             <img src={team_1} alt="Logo" className='' />
@@ -902,6 +984,62 @@ export default function Home() {
 
                             <p className='font-montserat opacity-30 group-hover:opacity-100'>
                                 2 years of experience in the Frontend Developer , React.js, Node.js, React Native, MongoDB etc.
+                            </p>
+                        </div>
+
+                        <div data-aos='flip-left' className='flex flex-col items-center text-center gap-y-6 group cursor-pointer'>
+                            <img src={team_5} alt="Logo" className='' />
+
+                            <div className=''>
+                                <h5 className='lg:text-3xl text-xl font-semibold group-hover:text-yellow-100 '>
+                                    Lead App dev
+                                </h5>
+                            </div>
+
+                            <p className='font-montserat opacity-30 group-hover:opacity-100'>
+                                7 years experience in app development
+                            </p>
+                        </div>
+
+                        <div data-aos='flip-left' className='flex flex-col items-center text-center gap-y-6 group cursor-pointer'>
+                            <img src={team_6} alt="Logo" className='' />
+
+                            <div className=''>
+                                <h5 className='lg:text-3xl text-xl font-semibold group-hover:text-yellow-100 '>
+                                    Lead Mern stack dev
+                                </h5>
+                            </div>
+
+                            <p className='font-montserat opacity-30 group-hover:opacity-100'>
+                                3 years in web3.0 and 5 years in web2.0
+                            </p>
+                        </div>
+
+                        <div data-aos='flip-left' className='flex flex-col items-center text-center gap-y-6 group cursor-pointer'>
+                            <img src={team_7} alt="Logo" className='' />
+
+                            <div className=''>
+                                <h5 className='lg:text-3xl text-xl font-semibold group-hover:text-yellow-100 '>
+                                    Lead Blockchain dev
+                                </h5>
+                            </div>
+
+                            <p className='font-montserat opacity-30 group-hover:opacity-100'>
+                                4 years experience
+                            </p>
+                        </div>
+
+                        <div data-aos='flip-left' className='flex flex-col items-center text-center gap-y-6 group cursor-pointer'>
+                            <img src={team_8} alt="Logo" className='' />
+
+                            <div className=''>
+                                <h5 className='lg:text-3xl text-xl font-semibold group-hover:text-yellow-100 '>
+                                    Project manager
+                                </h5>
+                            </div>
+
+                            <p className='font-montserat opacity-30 group-hover:opacity-100'>
+                                3 years of Blockchain development experience and tech lead + 2 years of project management
                             </p>
                         </div>
 
