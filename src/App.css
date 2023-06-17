@@ -9,7 +9,7 @@
   }
 
   50% {
-    transform: translate(0, 20px);
+    transform: translate(0, 30px);
   }
 
   100% {
@@ -62,4 +62,20 @@
   padding: 0;
   margin: 0;
   z-index: -1;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #171714;
+  background-color: #2f2f2c;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(281.31deg, #F9FB32 -7.22%, #CD9400 68.56%, #F9FB32 131.36%);
+  border-radius: 10px;
 }

@@ -741,7 +741,7 @@ export default function Home() {
                 <img src={bg_mobile} alt="Logo" className='absolute right-0 -mt-96 lg:block hidden' />
             </div>
 
-            <div id='team' className="lg:px-20 px-5 lg:py-20 py-5 relative z-20">
+            <div id='team' className="lg:px-20 px-5 lg:pt-48 py-5 relative z-20">
                 <div className='container mx-auto'>
 
                     <div className='lg:flex items-center justify-center gap-x-8'>
