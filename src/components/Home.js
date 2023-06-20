@@ -35,7 +35,7 @@ import top_1 from '../assets/top_1.png';
 import top_2 from '../assets/top_2.png';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import Accordion from './Accordion';
+import Faq from './Faq';
 import Particle from './Particle';
 export default function Home() {
 
@@ -49,40 +49,6 @@ export default function Home() {
         Aos.refresh();
     }, [])
 
-    const accordionData = [
-        {
-            numbers: '01',
-            title: 'What is MDR',
-            content: `MDR is the MrDriver project governance token and has an important role in the ecosystem.We developed it on Binance Smart Chain (BSC) BEP20, designed to empower the whole ecosystem.`
-        },
-        {
-            numbers: '02',
-            title: 'What is MDR Stake?',
-            content: `Based on our Block Emission MDR smart contract sends 11/520 MDR per day (345/600 MDR per month) into the MDR staking pool To support and encourage holders
-            MDR holders can stake MDR in periods of 3 months, 6 months, 9 months, and 1 year to receive these rewards
-            Users can harvest their profit any time, but Early unstake has a 30% fee, And this amount is sent to the dynamic Burn mechanism`
-        },
-        {
-            numbers: '03',
-            title: 'What is NFT Marketplace',
-            content: `Drivers Able to Trade their NFTs in our marketplace with MDR BUSD and BNB`
-        },
-        {
-            numbers: '04',
-            title: 'What is Bank?',
-            content: `MDR holders can ask for loans from the platform or other users in a P2P system`
-        },
-        {
-            numbers: '05',
-            title: 'What is BDR Stake?',
-            content: `Solo mode Drivers earn Daily BDR for their activity and driving; they can stake BDR tokens and earn MDR for use to pay Lvl up costs and Maintenance fees.
-            This will keep the Drivers' enthusiasm and motivation and help them increase their levels faster and enjoy using the platform.
-            We want to ensure all the Drivers can earn passive income from the platform, And they can use it as a subsidy for their car repairs and other necessary things in the real world.
-            How is the APR calculated?
-            APR depends on the size the amount of BDR staked and the number of participants in the pool based on our Block Emission MDR smart contract sends 1/152 MDR per day (34/560 MDR every month) into this pool to support the Online drivers in Solo mode
-            BDR pool don't have withdraw function and will be locked on the contract permanently.`
-        }
-    ];
 
     return (
         <div className="bg-black-100 font-urbanist overflow-hidden text-white-100">
@@ -303,16 +269,16 @@ export default function Home() {
 
                         <div data-aos="fade-right" className='lg:flex gap-x-8 justify-center lg:mt-16 mt-6'>
                             <div className='lg:block hidden'>
-                                <img src={utillity_1} alt="Logo" className='' />
+                                <img src={utillity_2} alt="Logo" className='' />
                             </div>
 
                             <div className='space-y-6 lg:w-10/12'>
                                 <h2 className='md:text-5xl text-2xl font-argent'>
-                                    Solo Mode
+                                    Peer To Peer Mode
                                 </h2>
 
                                 <p className='font-medium lg:text-xl'>
-                                    Earn crypto reward While you have no passengers MrDriver App allows drivers earn daily multi-crypto rewards based on their GPS kilometers activity for each trip and earn passive income in DeFi ecosystem
+                                    Revolution in the transportation industry Based on web3 and NFT technology, Passengers and Drivers able to connect directly together on the map and ask for ride-sharing or goods delivery services without having to pay taxes and commissions to intermediary companies.
                                 </p>
                             </div>
                         </div>
@@ -320,16 +286,16 @@ export default function Home() {
                         <div data-aos="fade-left" className='lg:flex gap-x-8 justify-between'>
                             <div className='space-y-6 lg:text-right lg:w-10/12'>
                                 <h2 className='md:text-5xl text-2xl font-argent'>
-                                    Peer To Peer Mode
+                                    Solo Mode
                                 </h2>
 
                                 <p className='lg:text-xl font-medium'>
-                                    Revolution in the transportation industry Based on web3 and NFT technology, Passengers and Drivers able to connect directly together on the map and ask for ride-sharing or goods delivery services without having to pay taxes and commissions to intermediary companies.
+                                    Earn crypto reward While you have no passengers MrDriver App allows drivers earn daily multi-crypto rewards based on their GPS kilometers activity for each trip and earn passive income in DeFi ecosystem
                                 </p>
                             </div>
 
                             <div className='lg:block hidden'>
-                                <img src={utillity_2} alt="Logo" className='' />
+                                <img src={utillity_1} alt="Logo" className='' />
                             </div>
                         </div>
 
@@ -754,7 +720,7 @@ export default function Home() {
                                 Team
                             </div>
                             <h2 data-aos='slide-right' className='md:text-5xl text-3xl font-argent text-white-100 pb-6'>
-                                Meet Our Amazing Team
+                                Mobile Application
                             </h2>
 
                             <div data-aos='slide-up' className='lg:w-9/12 mt-6' >
@@ -874,7 +840,6 @@ export default function Home() {
             <div id='faq' className="lg:px-20 px-5 lg:pt-28 py-5">
 
                 <div className='container mx-auto'>
-
                     <div className='bg-black-20 lg:p-16 p-6 rounded-3xl relative z-20'>
                         <div data-aos='slide-right' className='flex items-center gap-x-3 pb-3 text-yellow-100'>
                             <svg width="68" height="2" viewBox="0 0 68 2" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -886,12 +851,7 @@ export default function Home() {
                             Frequently asked questions
                         </h2>
 
-                        <div data-aos="zoom-in" data-aos-delay="350" className="accordion space-y-5 py-12">
-                            {accordionData.map(({ numbers, title, content }) => (
-                                <Accordion title={title} content={content} numbers={numbers} />
-                            ))}
-                        </div>
-
+                        <Faq />
                     </div>
 
                 </div>
@@ -909,7 +869,7 @@ export default function Home() {
                         Team
                     </div>
                     <h2 data-aos='slide-right' className='md:text-5xl text-3xl font-argent text-white-100'>
-                        Meet Our Amazing Team
+                        Mobile Application
                     </h2>
                     <p data-aos='fade-up' className='lg:w-1/2 mt-6 lg:text-lg font-medium'>
                         The MrDriver team is made up of the best experts and professionals with years of experience in the technology and digital currency industries. The team's size will gradually increase as the project moves forward, and we will add more specialists to the group in order to provide our users with the highest-quality products.

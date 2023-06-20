@@ -17,7 +17,7 @@
   }
 }
 
-.h-800{
+.h-800 {
   height: 950px;
 }
 
@@ -78,4 +78,14 @@
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(281.31deg, #F9FB32 -7.22%, #CD9400 68.56%, #F9FB32 131.36%);
   border-radius: 10px;
+}
+
+.slick-dots li button:before {
+  color: rgba(255, 255, 255, 0.6) !important;
+  font-size: 16px !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #9245F5 !important;
+  font-size: 28px !important;
 }
