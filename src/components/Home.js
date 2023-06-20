@@ -840,7 +840,7 @@ export default function Home() {
             <div id='faq' className="lg:px-20 px-5 lg:pt-28 py-5">
 
                 <div className='container mx-auto'>
-                    <div className='bg-black-20 lg:p-16 p-6 rounded-3xl relative z-20'>
+                    <div className='bg-black-20 lg:p-16 p-6 pb-12 rounded-3xl relative z-20'>
                         <div data-aos='slide-right' className='flex items-center gap-x-3 pb-3 text-yellow-100'>
                             <svg width="68" height="2" viewBox="0 0 68 2" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <line y1="1" x2="67.1717" y2="1" stroke="#FFC122" strokeWidth="2" />
