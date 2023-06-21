@@ -151,7 +151,7 @@ export default function Home() {
 
                     <div id='top' className='relative z-20 lg:mt-20 font-montserat'>
 
-                        <div data-aos='fade-up' className='lg:flex hidden gap-x-4 absolute left-1/3 -mt-8 -ml-12'>
+                        <div data-aos='fade-up' className='lg:flex hidden gap-x-4 absolute left-1/3 -mt-12 -ml-12'>
                             <p>Environmental<br></br>
                                 sustainability
                             </p>
@@ -161,7 +161,7 @@ export default function Home() {
                                     <path d="M39 19.5C39 30.2696 30.2696 39 19.5 39C8.73045 39 0 30.2696 0 19.5C0 8.73045 8.73045 0 19.5 0C30.2696 0 39 8.73045 39 19.5ZM4.14914 19.5C4.14914 27.978 11.022 34.8509 19.5 34.8509C27.978 34.8509 34.8509 27.978 34.8509 19.5C34.8509 11.022 27.978 4.14914 19.5 4.14914C11.022 4.14914 4.14914 11.022 4.14914 19.5Z" fill="white" />
                                 </svg>
 
-                                <svg className='ml-6 -mt-5' width="35" height="150" viewBox="0 0 45 169" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg className='ml-6 -mt-5' width="25" height="120" viewBox="0 0 45 169" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M12 166.5C37 133.333 70 54.1 2 2.5" stroke="white" strokeWidth="5" strokeLinejoin="round" strokeDasharray="10 10" />
                                 </svg>
                             </div>
@@ -202,7 +202,7 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <img data-aos='zoom-in' src={car} alt="Logo" className='felx mx-auto w-10/12' />
+                        <img data-aos='zoom-in' src={car} alt="Logo" className='felx mx-auto w-9/12' />
 
                         <div data-aos='fade-down' className='lg:flex hidden gap-x-8 absolute right-1/4 -mr-12 -mt-48'>
 
