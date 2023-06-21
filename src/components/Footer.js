@@ -17,7 +17,6 @@ export default function Footer() {
 
         <nav>
           <ul className="text-md flex flex-wrap justify-center lg:gap-12 gap-6 items-center text-white-100 mt-8">
-            <li><a href="#top" className="">About Us</a></li>
             <li><a href="https://github.com/MrDriverOfficial/MrDriver" className="">Github</a></li>
             <li><a href="#about" className="">Documentation</a></li>
             <li><a href="https://github.com/MrDriverOfficial/MrDriver" className="">Audit</a></li>
@@ -27,7 +26,7 @@ export default function Footer() {
         </nav>
 
         <div className='lg:flex justify-between items-center my-6 space-y-4'>
-          <p className='text-center'>© {new Date().getFullYear()} Mr. Driver. All rights reserved.</p>
+          <p className='text-center'>© {new Date().getFullYear()} Mr Driver. All rights reserved.</p>
 
           <div className='flex justify-center gap-6 items-center'>
             <a href='https://discord.com/channels/1095020887662657536/1095029978657214524'><img src={discord} alt="Github" className='' /></a>
